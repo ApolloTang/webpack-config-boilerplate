@@ -1,4 +1,4 @@
-## Webpack configuration boiler plate
+## Webpack4 configuration boiler plate
 Modify and cleanup after [Front End Master's webpack 4 fundamentals](
 https://frontendmasters.com/courses/webpack-fundamentals/
 )
