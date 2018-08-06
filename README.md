@@ -8,6 +8,7 @@ https://frontendmasters.com/courses/webpack-fundamentals/
 $ npx webpack [--env.presets <presetName>] [--env.mode <mode>]
 ```
 `<presetName>` : name of preset specified in `build-utils/presets/webpack.<preset>`
+
 `<mode>` : one of `none`, `development`, `production` (if `--env.mode` is absence, it is defaulted to `production`)
 
 ### Development watch using nodemon:
