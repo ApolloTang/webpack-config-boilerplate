@@ -19,15 +19,15 @@ $ nodemon --ignore 'dist' ./node_modules/.bin/webpack -- --env.presets <preset> 
 ### Debuging with chrome inpsector:
 ```
 $ node --inspect-brk ./node_modules/.bin/webpack -- --env.presets <preset> --env.mode <mode>
-chrome://inspect
 ```
 
 Open in chrome with: `chrome://inspect`
 
 ### Example:
 ```
-npx webpack -- --env.presets analyze --env.mode development
-node --inspect-brk ./node_modules/.bin/webpack -- --env.presets analyze --env.mode development
+npx webpack --env.presets analyze --env.mode development
+node --inspect-brk ./node_modules/.bin/webpack --env.presets analyze --env.mode development
+nodemon --ignore 'dist' ./node_modules/.bin/webpack -- --env.presets analyze --env.mode development
 ```
 
 
